@@ -12,7 +12,7 @@
 "use strict";
 
 function sendHeadersToBackend(headers) {
-  fetch("http://your-backend-url/headers", {
+  fetch("http://localhost:5000/headers", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
